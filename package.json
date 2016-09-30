@@ -1,0 +1,27 @@
+{
+  "name": "flavr-hackathon-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "express-graphql": "0.5.4",
+    "express-session": "1.14.1",
+    "graphql": "0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejakob/flavr-hackathon-server.git"
+  },
+  "author": "dejakob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejakob/flavr-hackathon-server/issues"
+  },
+  "homepage": "https://github.com/dejakob/flavr-hackathon-server#readme"
+}

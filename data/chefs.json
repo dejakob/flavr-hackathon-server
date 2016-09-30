@@ -1,0 +1,42 @@
+[
+  {
+    "id": "574051afa20d9f053af53433",
+    "firstName": "Chelsea",
+    "lastName": "Doms",
+    "biography": "Hi, ik ben Chelsea een leerkracht lager onderwijs met als grote passie koken! Of eerder bakken! Alles wat zoet is, is my cup of tea! Graag wil ik jullie mee laten genieten van alles wat ik graag maak. ",
+    "avatar": "https://s3.flavr.be/574051afa20d9f053af53433/avatar.jpg?=1463834781862",
+    "dishesSold": 28
+  },
+  {
+    "id": "57752cd79248d09a143701dd",
+    "firstName": "Carolien",
+    "lastName": "Vercauteren",
+    "biography": "Ben jij ook zo iemand die van de lekkere klassiekers kan genieten, dan ben je aan het juiste adres. Ik varieer van echte Vlaamse keuken tot de typische Italiaanse en Franse gerechten. Ik ben al sinds kleins af aan in de keuken terug te vinden. Het begon als kleuter die eitjes uit de ijskast haalde en op de grond ging bakken zoals de mama.Vanaf mijn tienerjaren beginnen experimenteren met eigen creaties gecombineerd met kookboek gerechten, nu ondertussen 30 jaar later uitgegroeid tot een huisvrouwtje die haar mannetje wel kan staan tussen al dat keukengeweld. ",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57752cd79248d09a143701dd/avatar_1468017392147.jpg",
+    "dishesSold": 72
+  },
+  {
+    "id": "57e00c78245b0f45babd1302",
+    "firstName": "Valerie",
+    "lastName": "Kesselaers",
+    "biography": "Omdat ik zelf een tarwe-allergie heb zijn al mijn gerechten uiteraard tarwe vrij. Verder ben ik heel hard bezig met gezond eten en minimaal bewerkt voedsel te gebruiken.",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57e00c78245b0f45babd1302/avatar_1474707240704.jpg",
+    "dishesSold": 0
+  },
+  {
+    "id": "5750768c97f9255f3ea67c26",
+    "firstName": "Jolien",
+    "lastName": "Roeffen",
+    "biography": "Ik ben Jolien, een net afgestudeerd psychologe. Mijn opa was chef-kok en door mijn bourgondische opvoeding heb ik al van jongs af aan een grote liefde voor koken. Sinds twee jaar eet ik minder koolhydraten en dat bevalt me zeer goed. Ik  heb meer energie, zit beter in mijn vel en ik ben me veel bewuster van wat ik eet. Al mijn gerechtjes zijn glutenvrij, suikervrij en low-carb. Neem ook zeker eens een kijkje op mijn website: www.lowcarbhealthyfood.com of volg mij op instagram voor lekkere receptjes: @lchf_healthyfood. Hopelijk kan ik jou binnenkort blij maken met een van mijn gerechten! :)",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/5750768c97f9255f3ea67c26/avatar_1469094627571.jpg",
+    "dishesSold": 99
+  },
+  {
+    "id": "57e25c5adc149b6e3235f626",
+    "firstName": "Dieter",
+    "lastName": "Temmerman",
+    "biography": "Ik zal beginnen met me even voor te stellen: aangenaam, ik ben Dieter Temmerman , een Zevenentwintig jarige Merksemnaar. Ik ben een echte (levens)genieter. Ik vind het leven, en alle mooie dingen die dat met zich mee brengt, prachtig. Ik ben gepassioneerd hobby kok en ik hou van lekker eten en goede wijn. Ik ben niet vies van een leuk avondje op stap, zing graag een liedje (onder de douche) en ik ga graag op reis. Verder ben ik een gewone, nuchtere, ambitieuze Antwerpse man.\n",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57e25c5adc149b6e3235f626/avatar_1474457782866.jpg",
+    "dishesSold": 8
+  }
+]
