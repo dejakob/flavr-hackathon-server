@@ -1,5 +1,5 @@
 /**
- * @name Chef
+ * @name Meal
  * @property {GraphQLString} id
  * @property {GraphQLInt} availableServings
  * @property {GraphQLInt} maxServings
@@ -21,9 +21,9 @@ const {
 
 const Chef = require('./chef.type');
 
-// Create a Chef GraphQL Object type
+// Create a Meal GraphQL Object type
 const MealType = new GraphQLObjectType({
-    name: 'Chef',
+    name: 'Meal',
     fields: {
         id: { type: GraphQLString },
         availableServings: { type: GraphQLInt },

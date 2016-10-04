@@ -1,5 +1,6 @@
 const express = require('express');
 const chefSchema = require('./schemas/chef.schema');
+const mealSchema = require('./schemas/meal.schema');
 const { graphql } = require('graphql');
 const bodyParser = require('body-parser');
 
@@ -31,6 +32,7 @@ function startServer () {
  */
 function configureRoutes () {
     app.post('/chef', handleChefGraphRequest);
+    app.post('/meal', handleMealGraphRequest);
 }
 
 /**
@@ -40,5 +42,10 @@ function configureRoutes () {
  */
 function handleChefGraphRequest (request, response) {
     graphql(chefSchema, request.body)
-        .then(result => response.send(JSON.stringify(result, null, 2)));
+        .then(result => response.send(JSON.stringify(result)));
+}
+
+function handleMealGraphRequest (request, response) {
+    graphql(mealSchema, request.body)
+        .then(result => response.send(JSON.stringify(result)));
 }
