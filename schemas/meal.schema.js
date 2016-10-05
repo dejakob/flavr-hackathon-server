@@ -34,6 +34,12 @@ const schema = new GraphQLSchema({
                 resolve () {
                     return meals;
                 }
+            },
+            first: {
+                type: Meal,
+                resolve () {
+                    return meals[0];
+                }
             }
         }
     })

@@ -27,4 +27,5 @@ type Meal {
 type RootQueryType {
   byChef: [Meal]
   all: [Meal]
+  first: Meal
 }

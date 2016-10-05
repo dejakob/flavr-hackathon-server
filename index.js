@@ -21,7 +21,7 @@ function startServer () {
     });
 
     // Parse POST body as text
-    app.use(bodyParser.text({ type: 'application/graphql' }));
+    app.use(bodyParser.text({ type: 'application/json' }));
 
     // Configure the app routes
     configureRoutes();
@@ -46,6 +46,11 @@ function handleChefGraphRequest (request, response) {
 }
 
 function handleMealGraphRequest (request, response) {
-    graphql(mealSchema, request.body)
-        .then(result => response.send(JSON.stringify(result)));
+    console.log('meals', JSON.parse(request.body).query);
+
+    graphql(mealSchema, JSON.parse(request.body).query)
+        .then(result => {
+            const { data } = result;
+            console.log('data', data); response.send(JSON.stringify(result))
+        });
 }
