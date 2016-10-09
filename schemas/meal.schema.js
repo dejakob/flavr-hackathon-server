@@ -14,6 +14,7 @@ const {
 
 // Import the meal type
 const Meal = require('../types/meal.type');
+const MealsCollection = require('../types/meals-collection.type');
 
 // Import mock data
 const meals = require('../data/meals.json');
@@ -24,15 +25,23 @@ const schema = new GraphQLSchema({
         name: 'RootQueryType',
         fields: {
             byChef: {
-                type: new GraphQLList(Meal),
+                type: MealsCollection,
                 resolve (chef) {
-                    return meals.filter(meal => meal.id === chef);
+                    const filteredMeals = meals.filter(meal => meal.id === chef);
+
+                    return {
+                        meals: filteredMeals,
+                        count: filteredMeals.length
+                    }
                 }
             },
             all: {
-                type: new GraphQLList(Meal),
+                type: MealsCollection,
                 resolve () {
-                    return meals;
+                    return {
+                        meals,
+                        count: meals.length
+                    };
                 }
             },
             first: {

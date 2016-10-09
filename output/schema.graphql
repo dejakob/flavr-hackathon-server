@@ -24,8 +24,13 @@ type Meal {
   picture: String
 }
 
+type MealsCollection {
+  meals: [Meal]
+  count: Int
+}
+
 type RootQueryType {
-  byChef: [Meal]
-  all: [Meal]
+  byChef: MealsCollection
+  all: MealsCollection
   first: Meal
 }
