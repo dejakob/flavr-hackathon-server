@@ -1,7 +1,6 @@
 /**
  *
  * @name Meal Schema
- *
  */
 
 // Import Graph QL methods / props
