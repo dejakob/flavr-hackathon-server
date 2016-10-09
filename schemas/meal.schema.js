@@ -7,8 +7,7 @@
 const graphQl = require('graphql/type');
 const {
     GraphQLObjectType,
-    GraphQLSchema,
-    GraphQLList
+    GraphQLSchema
 } = graphQl;
 
 // Import the meal type
