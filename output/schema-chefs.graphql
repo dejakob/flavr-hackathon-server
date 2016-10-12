@@ -1,0 +1,23 @@
+schema {
+  query: RootQueryType
+}
+
+type Chef {
+  id: String
+  firstName: String
+  lastName: String
+  biography: String
+  avatar: String
+  dishesSold: Int
+  fullName: String
+}
+
+type ChefsCollection {
+  chefs: [Chef]
+  count: Int
+}
+
+type RootQueryType {
+  count: Int
+  all: ChefsCollection
+}

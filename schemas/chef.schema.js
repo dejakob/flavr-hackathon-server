@@ -15,12 +15,11 @@ const graphQl = require('graphql/type');
 const {
     GraphQLObjectType,
     GraphQLSchema,
-    GraphQLInt,
-    GraphQLList
+    GraphQLInt
 } = graphQl;
 
-// Import the chef type
-const Chef = require('../types/chef.type');
+// Import the ChefsCollection type
+const ChefsCollection = require('../types/chefs-collection.type');
 
 // Import mock data
 const chefs = require('../data/chefs.json');
@@ -38,9 +37,12 @@ const schema = new GraphQLSchema({
                 }
             },
             all: {
-                type: new GraphQLList(Chef),
+                type: ChefsCollection,
                 resolve () {
-                    return chefs;
+                    return {
+                        chefs,
+                        count: chefs.length
+                    };
                 }
             }
         }
