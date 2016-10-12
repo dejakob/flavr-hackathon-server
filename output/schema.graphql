@@ -12,6 +12,11 @@ type Chef {
   fullName: String
 }
 
+type ChefsCollection {
+  chefs: [Chef]
+  count: Int
+}
+
 type Meal {
   id: String
   availableServings: Int
@@ -33,4 +38,5 @@ type RootQueryType {
   byChef: MealsCollection
   all: MealsCollection
   first: Meal
+  allChefs: ChefsCollection
 }

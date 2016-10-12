@@ -17,6 +17,12 @@ const MealsCollection = require('../types/meals-collection.type');
 // Import mock data
 const meals = require('../data/meals.json');
 
+// Import the ChefsCollection type
+const ChefsCollection = require('../types/chefs-collection.type');
+
+// Import mock data
+const chefs = require('../data/chefs.json');
+
 // Create the chef schema
 const schema = new GraphQLSchema({
     query: new GraphQLObjectType({
@@ -46,6 +52,15 @@ const schema = new GraphQLSchema({
                 type: Meal,
                 resolve () {
                     return meals[0];
+                }
+            },
+            allChefs: {
+                type: ChefsCollection,
+                resolve () {
+                    return {
+                        chefs,
+                        count: chefs.length
+                    };
                 }
             }
         }
