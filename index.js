@@ -41,7 +41,7 @@ function configureRoutes () {
  * @param {Object} response
  */
 function handleChefGraphRequest (request, response) {
-    graphql(chefSchema, request.body)
+    graphql(chefSchema, JSON.parse(request.body).query)
         .then(result => response.send(JSON.stringify(result)));
 }
 

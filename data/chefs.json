@@ -38,5 +38,29 @@
     "biography": "Ik zal beginnen met me even voor te stellen: aangenaam, ik ben Dieter Temmerman , een Zevenentwintig jarige Merksemnaar. Ik ben een echte (levens)genieter. Ik vind het leven, en alle mooie dingen die dat met zich mee brengt, prachtig. Ik ben gepassioneerd hobby kok en ik hou van lekker eten en goede wijn. Ik ben niet vies van een leuk avondje op stap, zing graag een liedje (onder de douche) en ik ga graag op reis. Verder ben ik een gewone, nuchtere, ambitieuze Antwerpse man.\n",
     "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57e25c5adc149b6e3235f626/avatar_1474457782866.jpg",
     "dishesSold": 8
+  },
+  {
+    "id": "57a22fe85327bcc44f842cd9",
+    "firstName": "Eline",
+    "lastName": "Vitta",
+    "biography": "Ik ben Eline,30 j,gehuwd en mama van twee flinke jongens.↵Mijn keuken is eenvoudige gezonde mix tussen Belgische,Franse en "exotische" gerechten,net als ik,want met een Belgische mama en een Afrikaanse papa liggen mijn roots niet helemaal bij de deur.↵Mijn papa is afkomstig van het eiland Mayotte gelegen in de Indische oceaan.↵Dit brengt me onmiddellijk bij mijn liefde voor koken die ik met de paplepel van mijn ouders heb meegekregen.Mijn vader zorgde voor de Afrikaanse gerechten en mijn moeder nam de Belgische kant voor haar rekening.ik?Ik hoef helemaal niet te kiezen en ik hou van allebei!",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57a22fe85327bcc44f842cd9/avatar_1471549916923.jpg",
+    "dishesSold": 5
+  },
+  {
+    "id": "57bd84a2d412257355156c7a",
+    "firstName": "Frederik",
+    "lastName": "Etienne",
+    "biography": "Al vele jaren ben ik gepassioneerd door eten. Ik vind het leuk nieuwe stijlen, ingrediënten en manieren te ontdekken. Door dagelijks actief  recepten te ontdekken, aan te passen en te verfijnen , probeer ik evenwichtig en vers te koken. Door in te spelen op de seizoenen zorg ik voor genoeg afwisseling. Respect voor het product en de natuur vind ik belangrijk en probeer daarom zo weinig mogelijk weg te gooien. Er is niks zo leuk als vrienden voldaan en met glunderende ogen weer naar huis gaan.",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/57bd84a2d412257355156c7a/avatar_1473140427769.jpg",
+    "dishesSold": 3
+  },
+  {
+    "id": "578f33d00908924e46163f2a",
+    "firstName": "Roos",
+    "lastName": "Bagdadaryan",
+    "biography": "Ik ben Roos, mama van twee kinderen, twee super mooi en lieve dochters dat zeggen dat mama is de beste kok:) Ik kok elke dag voor mijn familie en koken voor U ga ik met grote liefde doen.",
+    "avatar": "https://flavr.s3.eu-central-1.amazonaws.com/profile-pictures/578f33d00908924e46163f2a/avatar_1475566065657.jpg",
+    "dishesSold": 1
   }
 ]
